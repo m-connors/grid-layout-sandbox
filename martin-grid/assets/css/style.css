@@ -1,0 +1,30 @@
+.container1 {
+  display: grid;
+  grid-template-columns: (1, 1fr);
+  grid-auto-rows: 1fr;
+  width: 100vw;
+  heigth: 80vh;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-auto-rows: 2fr;
+  width: 100vw;
+  height: 80vh;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: (3, 1fr);
+  width: 100vw;
+  height: 20vh;
+}
+
+.image {
+  overflow: auto;
+}
+
+.text {
+  overflow: auto;
+}
