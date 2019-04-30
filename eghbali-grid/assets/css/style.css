@@ -1,0 +1,24 @@
+body {
+  background-color: #DCDCDC;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+}
+
+.container1_implicit {
+       display: grid;
+	   grid-template-columns: repeat(3, 1fr);
+     column-gap: 15px;
+	   width: 100vw;
+	   height: 20vh;
+}
+
+.container2_implicit {
+       display: grid;
+	   grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: 4fr;
+     column-gap: 15px;
+	   width: 100vw;
+	   height: 80vh;
+}
