@@ -1,0 +1,49 @@
+.frame {
+  max-width: 500px;
+  max-height: 1000px;
+  border-style: groove;
+  border-width: medium;
+  margin:auto;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-width: 500px;
+  max-height: 1000px;
+  border-style: solid;
+  border-width: medium;
+  border-bottom: solid thick;
+  margin: auto;
+}
+
+.top_panel {
+height: 100px;
+width: 130px;
+  border-style: solid;
+  border-width: medium;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.mid_panel {
+height: 300px;
+width: 130px;
+border-style: solid;
+border-width: medium;
+margin: auto;
+margin-bottom: 50px;
+}
+
+.low_panel {
+  height: 300px;
+  width: 130px;
+  border-style: solid;
+  border-width: medium;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
